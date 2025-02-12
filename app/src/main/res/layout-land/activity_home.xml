@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!-- Листа на места -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_list"
+        android:name="com.example.skopje12.LocationListFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <!-- Детали за избраното место -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_detail"
+        android:name="com.example.skopje12.LocationDetailFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"/>
+</LinearLayout>

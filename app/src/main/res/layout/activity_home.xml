@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Контејнер за RadioButtons -->
+    <LinearLayout
+        android:id="@+id/radioGroupContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose a place in Skopje"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupPlaces"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <RadioButton
+                android:id="@+id/radio_kale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fortress Kale" />
+
+            <RadioButton
+                android:id="@+id/radio_carsija"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Old Bazaar" />
+
+            <RadioButton
+                android:id="@+id/radio_museum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Archeological Museum" />
+
+            <RadioButton
+                android:id="@+id/radio_millennum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Millenium Cross" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_place"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/kale"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_enter_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter a place you want to visit"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_my_travels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Мy Тrips"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

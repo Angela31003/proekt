@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Skopje12</string>
+    <string name="title_activity_map_travel">Map_Travel</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="location_image_description">Слика на локацијата</string>
+    <string name="location_description_placeholder">Опис на локацијата...</string>
+
+</resources>
